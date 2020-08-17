@@ -1,0 +1,69 @@
+body {
+  color: #757575;
+}
+/* Logo */
+.logo .logo-studio {
+  color: #212121;
+}
+
+.logo .logo-web {
+  color: #2196f3;
+}
+.logo .logo-studio-fotter {
+  color: #ffffff;
+}
+
+/* Navigation */
+.nav .nav-link {
+  color: #212121;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #2196f3;
+}
+
+/* Contacts Header */
+.contacts .contacts-link {
+  color: #757575;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #2196f3;
+}
+
+/* Filter */
+.filter .filter_btn {
+  color: #212121;
+  background-color: #f5f4fa;
+}
+
+.filter_btn:hover,
+.filter_btn:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/* Portfolio */
+.portfolio .title {
+  color: #212121;
+}
+
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+
+.footer .adress {
+  color: #ffffff;
+}
+
+.footer .adress_link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .adress_link:focus,
+.footer .adress_link:hover {
+  color: #2196f3;
+}
