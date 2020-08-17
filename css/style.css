@@ -1,0 +1,86 @@
+/* :root { 
+    --primery-text-color: color: #757575;
+    --title-text-color: color: #212121;
+    --accent-text-color: color: #2196F3;
+    --contacts-text-color: color: rgba(255, 255, 255, 0.6);
+    --text-white-color: color: #FFFFFF;
+}*/
+body {
+  color: #757575;
+}
+
+/* Logo */
+.logo .logo-studio {
+  color: #212121;
+}
+
+.logo .logo-web {
+  color: #2196f3;
+}
+.logo .logo-studio-fotter {
+  color: #ffffff;
+}
+
+/* Navigation */
+.nav .nav-link {
+  color: #212121;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #2196f3;
+}
+
+/* Contacts Header */
+.contacts .contacts-link {
+  color: #757575;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #2196f3;
+}
+
+/* Hero */
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+
+.hero .hero-btn {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/* Edge Преимущества */
+.edge .edge-title {
+  color: #212121;
+}
+
+/* Works */
+.works .works-title {
+  color: #212121;
+}
+
+/* Stuff */
+.staff .staff-title {
+  color: #212121;
+}
+
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+
+.footer .adress {
+  color: #ffffff;
+}
+
+.footer .adress_link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .adress_link:focus,
+.footer .adress_link:hover {
+  color: #2196f3;
+}
