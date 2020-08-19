@@ -68,7 +68,7 @@ body {
 }
 
 /* Portfolio */
-.portfolio-list h2.title {
+.portfolio-list .title {
   color: #212121;
   font-weight: 700;
   font-size: 18px;
@@ -100,7 +100,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.footer .adress_link {
+.adress-list .adress_link {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   font-size: 14px;
