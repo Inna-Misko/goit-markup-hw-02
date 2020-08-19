@@ -1,7 +1,15 @@
 body {
   color: #757575;
+  font-family: "Roboto", sans-serif;
 }
 /* Logo */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
 .logo .logo-studio {
   color: #212121;
 }
@@ -16,6 +24,9 @@ body {
 /* Navigation */
 .nav .nav-link {
   color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .nav-link:hover,
@@ -25,6 +36,10 @@ body {
 
 /* Contacts Header */
 .contacts .contacts-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
   color: #757575;
 }
 
@@ -37,6 +52,10 @@ body {
 .filter .filter_btn {
   color: #212121;
   background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
 }
 
 .filter_btn:hover,
@@ -48,8 +67,22 @@ body {
 /* Portfolio */
 .portfolio .title {
   color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
+.portfolio .title:hover,
+.portfolio .title:focus {
+  color: #2196f3;
+}
+.portfolio-list .dicription {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
 /* Footer */
 .footer {
   background-color: #2f303a;
@@ -57,10 +90,18 @@ body {
 
 .footer .adress {
   color: #ffffff;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .footer .adress_link {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .footer .adress_link:focus,

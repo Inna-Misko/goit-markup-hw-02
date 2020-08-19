@@ -45,6 +45,7 @@ body {
 
 /* Contacts Header */
 .contacts .contacts-link {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -112,9 +113,15 @@ body {
   letter-spacing: 0.03em;
 }
 
-.stuff-name > p.name {
+.staff-list .name {
   color: #212121;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.staff-list .descript {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -127,10 +134,18 @@ body {
 
 .footer .adress {
   color: #ffffff;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .footer .adress_link {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .footer .adress_link:focus,
