@@ -100,17 +100,23 @@ body {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 
 /* Stuff */
-.staff .staff-title {
+.staff > .staff-title {
   color: #212121;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.stuff-name > p.name {
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 }
 
