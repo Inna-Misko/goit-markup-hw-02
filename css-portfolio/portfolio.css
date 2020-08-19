@@ -8,6 +8,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 
 .logo .logo-studio {
@@ -27,6 +28,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  text-decoration: none;
 }
 
 .nav-link:hover,
@@ -41,6 +43,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   color: #757575;
+  text-decoration: none;
 }
 
 .contacts-link:hover,
@@ -65,12 +68,13 @@ body {
 }
 
 /* Portfolio */
-.portfolio .title {
+.portfolio-list h2.title {
   color: #212121;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  text-decoration: none;
 }
 
 .portfolio .title:hover,
@@ -102,6 +106,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .footer .adress_link:focus,
