@@ -2,6 +2,14 @@ body {
   color: #757575;
   font-family: "Roboto", sans-serif;
 }
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
 /* Logo */
 .logo {
   font-family: "Raleway", sans-serif;
