@@ -83,6 +83,9 @@ ul {
 }
 
 /* Edge Преимущества */
+.section-white {
+  background-color: #e5e5e5;
+}
 .edge .edge-title {
   color: #212121;
   font-weight: 700;
@@ -109,6 +112,9 @@ ul {
 }
 
 /* Stuff */
+.staff {
+  background-color: #f5f4fa;
+}
 .staff > .staff-title {
   color: #212121;
   font-weight: 700;
