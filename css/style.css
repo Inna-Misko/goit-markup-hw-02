@@ -4,6 +4,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+ul {
+  list-style-type: none;
+}
+
 /* Logo */
 .logo {
   font-family: "Raleway", sans-serif;
@@ -65,6 +69,7 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .hero .hero-btn {
