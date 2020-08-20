@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #757575;
@@ -6,8 +16,17 @@ body {
 
 ul {
   list-style-type: none;
+  margin: 0px;
 }
 
+a {
+  text-decoration: none;
+}
+/* page-header */
+
+.page-header {
+  display: inline-block;
+}
 /* Logo */
 .logo {
   font-family: "Raleway", sans-serif;
@@ -34,7 +53,6 @@ ul {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  text-decoration: none;
 }
 
 .nav-link:hover,
@@ -49,7 +67,6 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   color: #757575;
-  text-decoration: none;
 }
 
 .contacts-link:hover,
@@ -64,6 +81,9 @@ ul {
 }
 
 .hero .hero-title {
+  margin: 0px;
+  margin-bottom: 40px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -87,6 +107,9 @@ ul {
   background-color: #e5e5e5;
 }
 .edge .edge-title {
+  margin: 0px;
+  margin-bottom: 10px;
+
   color: #212121;
   font-weight: 700;
   font-size: 14px;
@@ -95,7 +118,13 @@ ul {
   text-transform: uppercase;
 }
 
+.edge-hidden {
+  display: none;
+}
+
 .edge-text {
+  margin: 0px;
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -103,6 +132,9 @@ ul {
 
 /* Works */
 .works .works-title {
+  margin: 0px;
+  margin-bottom: 50px;
+
   color: #212121;
   font-weight: bold;
   font-size: 36px;
@@ -115,7 +147,10 @@ ul {
 .staff {
   background-color: #f5f4fa;
 }
-.staff > .staff-title {
+.staff .staff-title {
+  margin: 0px;
+  margin-bottom: 50px;
+
   color: #212121;
   font-weight: 700;
   font-size: 36px;
@@ -157,7 +192,6 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
 
 .footer .adress_link:focus,
