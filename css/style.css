@@ -22,10 +22,21 @@ ul {
 a {
   text-decoration: none;
 }
+
+/* container */
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
 /* page-header */
 
-.page-header {
-  display: inline-block;
+.main-header {
+  display: flex;
+  align-items: center;
 }
 /* Logo */
 .logo {
@@ -38,6 +49,7 @@ a {
 
 .logo .logo-studio {
   color: #000000;
+  margin-right: 93px
 }
 
 .logo .logo-web {
@@ -48,7 +60,29 @@ a {
 }
 
 /* Navigation */
-.nav .nav-link {
+.site-nav {
+  display: flex;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.nav-box {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav .item {
+  outline: 1px solid red;
+}
+
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.site-nav .nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: #212121;
   font-weight: 500;
   font-size: 14px;
@@ -61,6 +95,15 @@ a {
 }
 
 /* Contacts Header */
+.contacts {
+  display: flex;
+  margin-left: auto;
+}
+
+.contacts .item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .contacts .contacts-link {
   font-style: normal;
   font-weight: 500;
@@ -103,9 +146,7 @@ a {
 }
 
 /* Edge Преимущества */
-.section-white {
-  background-color: #e5e5e5;
-}
+
 .edge .edge-title {
   margin: 0px;
   margin-bottom: 10px;
