@@ -17,10 +17,11 @@
 
   <body>
     <!--Logo, Navigation, Contacts, Шапка сайта-->
-    <div class="container">
-      <header class="page-header">
+
+    <header class="page-header">
+      <div class="container">
         <div class="main-header">
-          <nav class="site-nav">
+          <nav class="nav-box">
             <a href="" class="logo">
               <span class="logo-web">Web</span>
               <span class="logo-studio">Studio</span>
@@ -50,21 +51,27 @@
             </ul>
           </address>
         </div>
-      </header>
-    </div>
+      </div>
+    </header>
+
     <main>
       <!--Hero, Эффективные решения для вашего бизнеса-->
-      <div class="container">
-        <section class="hero">
+
+      <section class="hero">
+        <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button class="hero-btn">Заказать услугу</button>
-        </section>
-      </div>
+          <div class="btn-container">
+            <button class="hero-btn">Заказать услугу</button>
+          </div>
+        </div>
+      </section>
+
       <!--Edge, Наши преимущества-->
-      <div class="container">
-        <section class="edge">
+
+      <section class="edge">
+        <div class="container">
           <h2 class="edge-hidden">Наши преимущества</h2>
-          <ul>
+          <ul class="edge-list">
             <li>
               <h3 class="edge-title">Внимание к деталям</h3>
               <p class="edge-text">
@@ -94,14 +101,15 @@
               </p>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
 
       <!--Works, Чем мы занимаемся-->
-      <div class="container">
-        <section class="works">
-          <h2 class="works-title">Чем мы занимаемся</h2>
-          <ul>
+
+      <section class="work">
+        <div class="container">
+          <h2 class="work-title">Чем мы занимаемся</h2>
+          <ul class="work-list">
             <li>
               <img
                 src="./img/img.jpg"
@@ -120,15 +128,18 @@
               <img src="./img/img3.jpg" alt="Дизайн" width="370" />
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
+
       <!-- Staff, Наша команда-->
-      <div class="container">
-        <section class="staff">
+
+      <section class="staff">
+        <div class="container">
           <h2 class="staff-title">Наша команда</h2>
           <ul class="staff-list">
             <li>
               <img
+                class="image"
                 src="./img/igor-dem.jpg"
                 alt="Игорь Демьяненко"
                 width="270"
@@ -152,11 +163,12 @@
               <p class="descript">UI Designer</p>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
-    <div class="container">
-      <footer class="footer">
+
+    <footer class="footer">
+      <div class="container">
         <a href="" class="logo">
           <span class="logo-web">Web</span>
           <span class="logo-studio-fotter">Studio</span>
@@ -176,7 +188,7 @@
             </li>
           </ul>
         </address>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>
